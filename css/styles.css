@@ -1,0 +1,22 @@
+:root {
+  --primery-text-color: #757575;
+  --header-text-color: #212121;
+  --accent-color: #2196f3;
+  --primery-white-color: #ffffff;
+  --primery-black-color: #000000;
+  --icon-color: #afb1b8;
+  --secondary-bg-cklor: #f5f4fa;
+}
+
+body {
+  background-color: var(--primery-white-color);
+  color: var(--primery-text-color);
+}
+
+.logo {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.sub-logo {
+  color: var(--primery-black-color);
+}
