@@ -84,6 +84,23 @@ body {
   background-color: var(--secondary-bg-color);
 }
 
+/* Страница Портфолио */
+.filter-button {
+  color: var(--headlines-text-color);
+  background-color: var(--secondary-bg-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--acent-text-color);
+  background-color: var(--accent-color);
+}
+
+.text-hover {
+  color: var(--acent-text-color);
+  background-color: var(--accent-color);
+}
+
 /* Футер */
 .footer {
   background-color: var(--fooetr-bg-color);
