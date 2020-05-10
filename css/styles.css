@@ -1,22 +1,56 @@
 :root {
   --primery-text-color: #757575;
-  --header-text-color: #212121;
+  --headlines-text-color: #212121;
+  --acent-text-color: #ffffff;
   --accent-color: #2196f3;
-  --primery-white-color: #ffffff;
-  --primery-black-color: #000000;
+  --primery-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --fooetr-bg-color: #2f303a;
+  --hero-bg-color: rgba(47, 48, 58, 0.8);
+  --portfolio-bg-color: rgba(33, 150, 243, 0.9);
+  --logo-black-color: #000000;
   --icon-color: #afb1b8;
-  --secondary-bg-cklor: #f5f4fa;
+  --secondary-bg-color: #f5f4fa;
 }
+/* inherit */
 
 body {
-  background-color: var(--primery-white-color);
+  background-color: var(--primery-bg-color);
   color: var(--primery-text-color);
 }
 
-.logo {
-  color: var(--accent-color);
+/* Сброс */
+.list {
+  list-style: none;
+}
+
+.link {
   text-decoration: none;
 }
+
+/* Шапка */
+.logo {
+  color: var(--accent-color);
+}
 .sub-logo {
-  color: var(--primery-black-color);
+  color: var(--logo-black-color);
+}
+
+.site-nav .link {
+  color: var(--headlines-text-color);
+}
+
+.site-nav .link.current,
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.address-nav .link {
+  color: var(--primery-text-color);
+}
+
+.address-nav .link:hover,
+.address-nav .link:focus {
+  color: var(--accent-color);
 }
