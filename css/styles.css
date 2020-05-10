@@ -181,6 +181,7 @@ h2 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  text-align: left;
 }
 
 .portfolio .text {
@@ -190,7 +191,7 @@ h2 {
 
 .text-hover {
   color: var(--acent-text-color);
-  background-color: var(--accent-color);
+  background-color: var(--portfolio-bg-color);
 
   font-size: 18px;
   line-height: 1.56;
