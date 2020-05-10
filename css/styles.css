@@ -11,6 +11,7 @@
   --logo-black-color: #000000;
   --icon-color: #afb1b8;
   --secondary-bg-color: #f5f4fa;
+  --footer-address-color: rgba(255, 255, 255, 0.6);
 }
 /* inherit */
 
@@ -19,13 +20,18 @@ body {
   color: var(--primery-text-color);
 }
 
-/* Сброс */
+/* сброс */
 .list {
   list-style: none;
 }
 
 .link {
   text-decoration: none;
+}
+
+/* скрывает заголовки */
+.hiden {
+  display: none;
 }
 
 /* Шапка */
@@ -52,5 +58,55 @@ body {
 
 .address-nav .link:hover,
 .address-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Тело */
+.title-hero {
+  color: var(--acent-text-color);
+  background-color: var(--hero-bg-color);
+}
+
+.button {
+  color: var(--acent-text-color);
+  background-color: var(--accent-color);
+}
+
+.title {
+  color: var(--headlines-text-color);
+}
+
+.text {
+  color: var(--primery-text-color);
+}
+
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+/* Футер */
+.footer {
+  background-color: var(--fooetr-bg-color);
+}
+
+.footer-logo {
+  color: var(--acent-text-color);
+}
+
+.footer-text {
+  color: var(--acent-text-color);
+}
+
+.footer-address {
+  color: var(--footer-address-color);
+}
+
+/* Временный класс */
+.temporary {
+  color: var(--acent-text-color);
+}
+
+.temporary:hover,
+.temporary:focus {
   color: var(--accent-color);
 }
